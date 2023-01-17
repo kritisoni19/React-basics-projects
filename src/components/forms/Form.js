@@ -7,7 +7,8 @@ function Form(){
     const[email,setEmail] = useState('');
     //creating empty array for storing the data
     const [details,setDetails] =useState([]);
-
+    
+    //code for formSubmitHandle 
     let formSubmitHandle = (e) =>{
         e.preventDefault();
         
