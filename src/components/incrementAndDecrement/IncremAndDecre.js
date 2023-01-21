@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './IncreDec.css';
-
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 
 function IncremAndDecre(){
     const [headval,setheadval] = useState(0);
@@ -24,8 +25,9 @@ function IncremAndDecre(){
     }
     return(
         <>
-           <section className='section-main'>
-                <h2>Increment and Decrement Value</h2>
+            <Card>
+                <CardContent>
+                <h2 style={{textAlign:'center'}}>Increment and Decrement Value</h2>
                 <div>
                     <h2 style={styling}>{headval}</h2>
                     <div className="btn-center">
@@ -33,7 +35,10 @@ function IncremAndDecre(){
                         <button type="button" className="btn" onClick={decrementhandle}>Decrement</button>
                     </div>
                 </div>
-            </section>
+                </CardContent>
+            </Card>
+           
+           
             
         </>
     )
