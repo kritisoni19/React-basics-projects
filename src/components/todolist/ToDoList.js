@@ -55,7 +55,7 @@ function ToDoList(){
                                 <i className="fa fa-trash-o addIcon" aria-hidden="true" onClick={()=>deleteBtn(index)}></i>
                             </div> )
                         })}
-                       
+                       {/* mt-10 */}
                         <div className="mt-10">
                             <button type="button" className="addBtn" onClick={clearAllBtn}>Clear All</button>
                         </div>
