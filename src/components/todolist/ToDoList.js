@@ -17,7 +17,7 @@ function ToDoList(){
         }
         
     }
-    
+    // delete handle
     const deleteBtn=(id)=>{
         console.log(id);
         const updatedData = 
