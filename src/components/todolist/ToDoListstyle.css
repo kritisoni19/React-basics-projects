@@ -42,3 +42,6 @@
 .mt-10{
     margin-top: 10px;
 }
+.MuiCardContent-root {
+    background: aliceblue !important;
+}

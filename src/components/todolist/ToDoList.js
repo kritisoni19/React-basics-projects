@@ -36,7 +36,7 @@ function ToDoList(){
             <Card>
                 <CardContent>
                     <div className="outer-main">
-                        {itemstore}
+                        
                         <div>
                             <figure>
                                 <img className="todoImg" src = {checklist} alt = "checklist"/>
