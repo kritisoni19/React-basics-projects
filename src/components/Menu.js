@@ -22,6 +22,7 @@ function Menu(){
                             <li><Link to="/displayitems">7. display items </Link></li>
                             <li><Link to="/apnaskill">8. Skill </Link></li>
                             <li><Link to="/todolistwithedit">9. To do list with edit </Link></li>
+                            <li><Link to="/registrationform">10. Registration Form </Link></li>
                             
                         </ul>
                     </div>
