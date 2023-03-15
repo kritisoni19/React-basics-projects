@@ -12,6 +12,8 @@ import FoodCart from './components/foodcart/FoodCart';
 import DisplayItems from './components/displayitems/DisplayItems';
 import ApnaSkills from './components/myskill/ApnaSkills';
 import TodoListedit from './components/todoedit/TodoListedit';
+import RegistrationForm from './components/forms/RegistrationForm';
+
 function App() {
   return (
     <>
@@ -27,6 +29,7 @@ function App() {
           <Route path='/displayitems' element={<DisplayItems/>} />
           <Route path='/apnaskill' element={<ApnaSkills/>} />
           <Route path='/todolistwithedit' element={<TodoListedit/>} />
+          <Route path='/registrationform' element={<RegistrationForm/>} />
           
         </Routes>
       </Container>
