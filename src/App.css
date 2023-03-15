@@ -1,32 +1,43 @@
-.nav ul li{
+/* .navCustom ul li{
   list-style-type: none;
   float: left;
 }
-.nav ul li a{
+.navCustom ul li a{
   padding: 10px;
   text-decoration: none;
   color: white;
 }
-.nav ul{
+.navCustom ul{
   overflow: hidden;
   padding: 10px;
   background: #1a237e;
   margin: 0;
 }
-.nav{
+.navCustom{
   margin-bottom: 30px;
-}
+} */
 
 .welcome-h{
-    font-size: 150px;
+    font-size: 85px;
     font-weight: 800;
     text-align: center;
     margin-bottom: 20px;
 }
 .basic-proj{
-  font-size: 86px;
+  font-size: 60px;
     text-align: center;
     color: purple;
     font-weight: 800;
     margin-top: 0;
+}
+.par{
+  font-size: 35px;
+  text-align: center;
+  color: #CD5888;
+  font-weight: 800;
+  margin-top: 0;
+}
+div#root{
+  margin-left: 330px;
+  margin-top: 40px;
 }

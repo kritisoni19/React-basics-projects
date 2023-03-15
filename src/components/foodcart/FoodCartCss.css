@@ -1,0 +1,27 @@
+.card-img-cus{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.imgCs{
+    width: 200px;
+    height: 180px;
+    margin-right: 10px;
+}
+
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: 55%;
+}
+.orderBtn{
+    color: white;
+    background: #cd5888;
+    padding: 8px 12px;
+    border: none;
+}
+.mainsec{
+    display: flex;
+}

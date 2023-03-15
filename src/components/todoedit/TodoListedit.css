@@ -1,0 +1,47 @@
+.outer-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.todoImg{
+    width: 100px;
+}
+.inputSec{
+    position: relative;
+    
+}
+.inputSec input{
+    height: 30px;
+    padding: 5px;
+    width: 330px;
+}
+.addIcon{
+    position: absolute;
+    top: 30%;
+    left: 92%;
+}
+.addItemsec{
+    position: relative;
+    background: #1a237e;
+    margin-top: 10px;
+    color: white;
+}
+.addItemsec div{
+    height: 30px;
+    padding: 5px;
+    width: 330px;
+}
+.addBtn{
+    font-size: 16px;
+    padding: 10px;
+    width: 100px;
+    background: white;
+    cursor: pointer;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.MuiCardContent-root {
+    background: aliceblue !important;
+}

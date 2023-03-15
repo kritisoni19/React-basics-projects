@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './IncreDec.css';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import TitleIncrement from './TitleIncrement';
 
 function IncremAndDecre(){
     const [headval,setheadval] = useState(0);
@@ -31,13 +32,14 @@ function IncremAndDecre(){
                 <div>
                     <h2 style={styling}>{headval}</h2>
                     <div className="btn-center">
-                        <button type="button" className="btn" onClick={incrementhandle}>Increment</button>
-                        <button type="button" className="btn" onClick={decrementhandle}>Decrement</button>
+                        <button type="button" className="btn btn-primary" onClick={incrementhandle}>Increment</button>
+                        <button type="button" className="btn btn-danger" onClick={decrementhandle}>Decrement</button>
                     </div>
                 </div>
                 </CardContent>
             </Card>
-           
+            
+           <TitleIncrement/>
            
             
         </>
