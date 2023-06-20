@@ -23,8 +23,15 @@ function Menu(){
                             <li><Link to="/apnaskill">8. Skill </Link></li>
                             <li><Link to="/todolistwithedit">9. To do list with edit </Link></li>
                             <li><Link to="/registrationform">10. Registration Form </Link></li>
+                            <li><Link to="/loginform">11. Login Form </Link></li> 
+                            <li><Link to="/cart">12. cart</Link></li> 
+                            <li><Link to="/crudapp">13. Crud App</Link></li> 
+                            <li><Link to="/changecolor">14. Change Color</Link></li> 
+                            <li><Link to="/searchuser">15. Search User</Link></li>
+                            <li><Link to="/swiggyfoodorder">16. Swiggy Food order page</Link></li>  
                             
                         </ul>
+
                     </div>
             
         </>
