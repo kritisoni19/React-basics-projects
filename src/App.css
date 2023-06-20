@@ -1,21 +1,4 @@
-/* .navCustom ul li{
-  list-style-type: none;
-  float: left;
-}
-.navCustom ul li a{
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-}
-.navCustom ul{
-  overflow: hidden;
-  padding: 10px;
-  background: #1a237e;
-  margin: 0;
-}
-.navCustom{
-  margin-bottom: 30px;
-} */
+
 
 .welcome-h{
     font-size: 85px;
@@ -40,4 +23,16 @@
 div#root{
   margin-left: 308px;
   margin-top: 40px;
+}
+table, tr, td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+table{
+  width: 100%;
+}
+td,th{
+  padding: 10px;
+  text-align: center;
 }

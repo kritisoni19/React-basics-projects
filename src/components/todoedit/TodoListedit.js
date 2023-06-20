@@ -43,7 +43,7 @@ function TodoListedit(){
             return currElem.id!== index;
           
            
-        })
+    })
         console.log(updatedDatas);
         setStoreValue(updatedDatas);
     }

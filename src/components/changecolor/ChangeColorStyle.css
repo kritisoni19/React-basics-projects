@@ -1,0 +1,22 @@
+.boxSize{
+    height: 400px;
+    width:500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.chgclrbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rgbTxt{
+    margin-bottom: 0;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 372px;
+}

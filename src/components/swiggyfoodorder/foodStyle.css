@@ -1,0 +1,27 @@
+.nav_links{
+
+}
+.nav_links ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav_links ul li{
+padding: 5px;
+}
+.head_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card_cus{
+    min-height:535px !important;
+}
+.search_container{
+    display: flex;
+    width: 320px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

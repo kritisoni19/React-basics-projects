@@ -13,6 +13,12 @@ import DisplayItems from './components/displayitems/DisplayItems';
 import ApnaSkills from './components/myskill/ApnaSkills';
 import TodoListedit from './components/todoedit/TodoListedit';
 import RegistrationForm from './components/forms/RegistrationForm';
+import LoginForm from './components/forms/LoginForm';
+import Cart from './components/shoppingCart/Cart';
+import CrudApp from './components/crud/CrudApp';
+import ChangeColor from './components/changecolor/ChangeColor';
+import SearchUserProfile from './components/searchuser/SearchUserProfile';
+import FoodOrderpage from './components/swiggyfoodorder/FoodOrderpage';
 
 function App() {
   return (
@@ -30,6 +36,14 @@ function App() {
           <Route path='/apnaskill' element={<ApnaSkills/>} />
           <Route path='/todolistwithedit' element={<TodoListedit/>} />
           <Route path='/registrationform' element={<RegistrationForm/>} />
+          <Route path='/loginform' element={<LoginForm/>} />
+          
+          <Route path='/cart' element={<Cart/>} />
+          <Route path='/crudapp' element={<CrudApp/>} />
+          <Route path='/changecolor' element={<ChangeColor/>} />
+          <Route path='/searchuser' element={<SearchUserProfile/>} />
+          <Route path='/swiggyfoodorder' element={<FoodOrderpage/>} />
+          
           
         </Routes>
       </Container>
