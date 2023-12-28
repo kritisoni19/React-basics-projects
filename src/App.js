@@ -18,8 +18,8 @@ import Cart from './components/shoppingCart/Cart';
 import CrudApp from './components/crud/CrudApp';
 import ChangeColor from './components/changecolor/ChangeColor';
 import SearchUserProfile from './components/searchuser/SearchUserProfile';
-import FoodOrderpage from './components/swiggyfoodorder/FoodOrderpage';
 
+import GrandParent from './components/contextApi/GrandParent';
 function App() {
   return (
     <>
@@ -42,7 +42,8 @@ function App() {
           <Route path='/crudapp' element={<CrudApp/>} />
           <Route path='/changecolor' element={<ChangeColor/>} />
           <Route path='/searchuser' element={<SearchUserProfile/>} />
-          <Route path='/swiggyfoodorder' element={<FoodOrderpage/>} />
+
+          <Route path='/contextApieg' element={<GrandParent/>} />
           
           
         </Routes>
