@@ -1,18 +1,22 @@
 import React from "react";
 import itemLists from './itemsList';
-
+import { useEffect,useState } from "react";
 
 
 function DisplayItems(){
-    // //const [upd, setupd] = useState([]);
-    // const handleDelete = (id)=>{
+    const [data, setData] = useState([]);
 
-    //     console.log('click'+ id);
-    //    const upd =  itemLists.filter((elem,index)=>{
-    //         return id!== index;
-    //     })
-    //     console.log(upd)
-    // }
+    const getData= async()=>{
+        let data = await fetch('https://jsonplaceholder.typicode.com/todos');
+        let json =await data.json();
+        console.log(json)
+        setData(json)
+    }
+
+    useEffect(()=>{
+      getData();
+    })
+
 
   return(
     <>
@@ -46,7 +50,29 @@ function DisplayItems(){
           
         </tbody>
     </table>
-                
+
+       <h2>Using Fetch API Call</h2>    
+
+       <table>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Completed</th>
+        </tr>
+        { 
+            data.map((e)=>{
+                return <tr>
+                    <td>{e.id}</td>
+                    <td>{e.title}</td>
+                    <td>{
+                    e.completed ? <input type="checkbox" checked/> :<input type="checkbox"/>
+                    }
+                    
+                    </td>
+                </tr>
+            })
+        }
+        </table>     
     </>
   )
 }
